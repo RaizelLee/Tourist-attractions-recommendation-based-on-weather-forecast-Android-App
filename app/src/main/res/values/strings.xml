@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">1041636_1041639_project</string>
+    <string name="place001B">1</string>
+    <string name="place002B">2</string>
+    <string name="place003B">3</string>
+    <string name="place004B">4</string>
+    <string name="ViewList">清單顯示</string>
+    <string name="MapList">地圖顯示</string>
+    <string name="BackList">回首頁</string>
+    <string name="NextList">清單確認</string>
+    <string name="AddList">加入清單</string>
+    <string name="Intro">景點名稱：高美野生動物保護區\n
+所在地：台中縣\n
+介紹：高美濕地位於清水大甲溪出海口南側，擁有豐富的天然資源，是國內少數幾處雁鴨集體繁殖區之一。目前已逐漸取代大肚溪口，成為喜好賞鳥人士的新興賞線。\n
+費用：免費\n
+開放時間：每日24小時皆開放\n
+電話：04-2656-5810\n
+地址：臺中市清水區大甲溪出海口高美濕地\n
+網站：http://www.gaomei.com.tw/
+</string>
+</resources>

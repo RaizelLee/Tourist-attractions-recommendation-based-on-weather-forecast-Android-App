@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raizel.a1041636_1041639_project.Place_List">
+
+    <ScrollView
+        android:id="@+id/ListItems"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/place001"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place001B"
+                    android:layout_width="44dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place003B" />
+
+                <CheckBox
+                    android:id="@+id/place001C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place001T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <ImageView
+                    android:id="@+id/place001P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"/>
+
+
+            </TableRow><!-- 1 -->
+            <TableRow
+                android:id="@+id/place002"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place002B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place002C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place002T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <ImageView
+                    android:id="@+id/place002P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"/>
+
+            </TableRow><!-- 2 -->
+            <TableRow
+                android:id="@+id/place003"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place003B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place003C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place003T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <ImageView
+                    android:id="@+id/place003P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"/>
+
+            </TableRow><!-- 3 -->
+            <TableRow
+                android:id="@+id/place004"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place004B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place004B" />
+
+                <CheckBox
+                    android:id="@+id/place004C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place004T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <ImageView
+                    android:id="@+id/place004P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"/>
+
+            </TableRow><!-- 4 -->
+            <TableRow
+                android:id="@+id/place005"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place005B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place005C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place005T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <ImageView
+                    android:id="@+id/place005P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"/>
+
+            </TableRow><!-- 5 -->
+            <TableRow
+                android:id="@+id/place006"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place006B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place006C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place006T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place006P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 6 -->
+            <TableRow
+                android:id="@+id/place007"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place007B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place007C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place007T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place007P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 7 -->
+            <TableRow
+                android:id="@+id/place008"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place008B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place008C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place008T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place008P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 8 -->
+            <TableRow
+                android:id="@+id/place009"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place009B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place009C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place009T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place009P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 9 -->
+            <TableRow
+                android:id="@+id/place010"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place010B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place010C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place010T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place010P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 10 -->
+            <TableRow
+                android:id="@+id/place011"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place011B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place011C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place011T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place011P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 11 -->
+            <TableRow
+                android:id="@+id/place012"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place012B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place012C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place012T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place012P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 12 -->
+            <TableRow
+                android:id="@+id/place013"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place013B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place013C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place013T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place013P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 13 -->
+            <TableRow
+                android:id="@+id/place014"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place014B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place014C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place014T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place014P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 14 -->
+            <TableRow
+                android:id="@+id/place015"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place015B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place015C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place015T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place015P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 15 -->
+            <TableRow
+                android:id="@+id/place016"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place016B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place016C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place016T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place016P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 16 -->
+            <TableRow
+                android:id="@+id/place017"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place017B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place017C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place017T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place017P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 17 -->
+            <TableRow
+                android:id="@+id/place018"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place018B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place018C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place018T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place018P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 18 -->
+            <TableRow
+                android:id="@+id/place019"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place019B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place019C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place019T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place019P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 19 -->
+            <TableRow
+                android:id="@+id/place020"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place020B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place020C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place020T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place020P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 20 -->
+            <TableRow
+                android:id="@+id/place021"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place021B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place021C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place021T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place021P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 21 -->
+            <TableRow
+                android:id="@+id/place022"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place022B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place022C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place022T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place022P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 22 -->
+            <TableRow
+                android:id="@+id/place023"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place023B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place023C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place023T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place023P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 23 -->
+            <TableRow
+                android:id="@+id/place024"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place024B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place024C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place024T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place024P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 24 -->
+            <TableRow
+                android:id="@+id/place025"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place025B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place025C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place025T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place025P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 25 -->
+            <TableRow
+                android:id="@+id/place026"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place026B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place026C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place026T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place026P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 26 -->
+            <TableRow
+                android:id="@+id/place027"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place027B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place027C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place027T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place027P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 27 -->
+            <TableRow
+                android:id="@+id/place028"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place028B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place028C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place028T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place028P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 28 -->
+            <TableRow
+                android:id="@+id/place029"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place029B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place029C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place029T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place029P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 29 -->
+            <TableRow
+                android:id="@+id/place030"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place030B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place030C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place030T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place030P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 30 -->
+            <TableRow
+                android:id="@+id/place031"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place031B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place031C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place031T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place031P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 31 -->
+            <TableRow
+                android:id="@+id/place032"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place032B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place032C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place032T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place032P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 32 -->
+            <TableRow
+                android:id="@+id/place033"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place033B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place033C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place033T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place033P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 33 -->
+            <TableRow
+                android:id="@+id/place034"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place034B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place034C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place034T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place034P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 34 -->
+            <TableRow
+                android:id="@+id/place035"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place035B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place035C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place035T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place035P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 35 -->
+            <TableRow
+                android:id="@+id/place036"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place036B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place036C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place036T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place036P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 36 -->
+            <TableRow
+                android:id="@+id/place037"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place037B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place037C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place037T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place037P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 37 -->
+            <TableRow
+                android:id="@+id/place038"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place038B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place038C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place038T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place038P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 38 -->
+            <TableRow
+                android:id="@+id/place039"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place039B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place039C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place039T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place039P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 39 -->
+            <TableRow
+                android:id="@+id/place040"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place040B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place040C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place040T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place040P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 40 -->
+            <TableRow
+                android:id="@+id/place041"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place041B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place041C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place041T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place041P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 41 -->
+            <TableRow
+                android:id="@+id/place042"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place042B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place042C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place042T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place042P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 42 -->
+            <TableRow
+                android:id="@+id/place043"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place043B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place043C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place043T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place043P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 43 -->
+            <TableRow
+                android:id="@+id/place044"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place044B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place044C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place044T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place044P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 44 -->
+            <TableRow
+                android:id="@+id/place045"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place045B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place045C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place045T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place045P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 45 -->
+            <TableRow
+                android:id="@+id/place046"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place046B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place046C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place046T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place046P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 46 -->
+            <TableRow
+                android:id="@+id/place047"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place047B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place047C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place047T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place047P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 47 -->
+            <TableRow
+                android:id="@+id/place048"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place048B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place048C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place048T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place048P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 48 -->
+            <TableRow
+                android:id="@+id/place049"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place049B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place049C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place049T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place049P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 49 -->
+            <TableRow
+                android:id="@+id/place050"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#FFFF"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnClick"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/place050B"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:text="@string/place001B" />
+
+                <CheckBox
+                    android:id="@+id/place050C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/place050T"
+                    android:layout_width="134dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="0.5dip" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/place050P"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent">
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow><!-- 50 -->
+
+        </TableLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/ViewList"
+        android:layout_width="190dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:text="@string/ViewList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MapList"
+        android:layout_width="190dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="@string/MapList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/PlaceList"
+        android:layout_width="378dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:text="@string/BackList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BackList"
+        android:layout_width="190dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:text="@string/BackList"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/NextList"
+        android:layout_width="190dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/NextList"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
